@@ -31,7 +31,7 @@ require(
                         position: {
                             x: -105.503,
                             y: 44.270,
-                            z: 20000000,
+                            z: 15000000,
                             spatialReference: {
                                 wkid: 4326
     
@@ -52,7 +52,15 @@ require(
                             directShadowsEnabled: false
                         }
                     }
+                
                 })
+
+                var view = new SceneView({
+                    center:[-112, 38],
+                    zoom:12,
+                    heading:30
+                })
+                    
                 const initMap = function(){
                
                    
@@ -82,8 +90,7 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: key + value.city + ", " + value.state + ": " ,
-                                content: key + content,
+                                title: key + value.city + ", " + value.state + ": " 
                             }
                           });
                           graphicsLayer.add(pointGraphic);
