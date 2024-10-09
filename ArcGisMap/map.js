@@ -52,7 +52,15 @@ require(
                         lighting: {
                             directShadowsEnabled: true
                         }
-                    }
+                    },
+
+                    const searchWidget = new Search ({
+                        view:view
+                    });
+                    view.ui.add(searchWidget, {
+                        position: "top-right",
+                        index:
+                    })
                 
                 })
                 
