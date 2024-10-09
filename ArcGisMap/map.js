@@ -81,7 +81,7 @@ require(
                           const markerSymbol = {
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-                            color: "purple",
+                            color: "red",
                             width: "40px",
                             height: "40px",
                             
@@ -91,17 +91,15 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             color: "#c86558",
+                            alignment : "bottom-center",
                             popupTemplate: {
                                 title: value.city + ", " + value.state + "     -->    "+ key,
                                 content: "This is an important point in my life",
-                                alignment:"top-left"
-                                
+                                alignment:"bottom-center"                                
                             }
                             
                             
                           });
-
-                        
 
                           graphicsLayer.add(pointGraphic);
                         
