@@ -67,7 +67,7 @@ require(
                     view.ui.add(shadowWidget, "bottom-right");
 
                 
-                    const legend = new Legend({
+                const legend = new Legend({
                         view: view,
                         style: "card" 
                       });
