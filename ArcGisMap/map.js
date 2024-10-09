@@ -63,6 +63,10 @@ require(
                     position:"top-right"
                 });
 
+                const cluster = {
+                    type:cluster
+                  };
+
                 const initMap = function(){
                
                    
@@ -94,10 +98,6 @@ require(
                             } 
                             
                           });
-
-                          const cluster = {
-                            type:cluster
-                          };
 
                           graphicsLayer.add(pointGraphic);
                     
