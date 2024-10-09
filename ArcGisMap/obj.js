@@ -1,8 +1,23 @@
 var myStuff = {
-    "Graduate School": {city: "Fairbanks", state: "Alaska", "coord": [-147.776749, 64.835365] },
-    "Postdoc Place": {city: "Miami", state: "Florida", "coord": [-80.191788, 25.761681]},
-    "Current Residence": {city: "Laramie", state: "Wyoming", "coord": [-105.502, 41.3104]},
-    "Favorite Vacation": {city: "San Diego", state: "California", "coord": [-117.161087, 32.715736] }
-}
+    "Hometown": {city: "North Pole", state: "Alaska", "coord": [-147.3534, 64.7552] },
+    "Undergraduate/Graduate School": {city: "Laramie", state: "Wyoming", "coord": [-105.502, 41.3104]},
+    "Birth Place": {city: "Alamogordo", state: "New Mexico", "coord": [-105.9603, 32.8995]},
+    "Favorite Vacation": {city: "Honolulu", state: "Hawaii", "coord": [-157.8581, 21.3099] },
+    "Parents Home": {city: "Plattsmouth", state: "Nebraska", "coord": [-95.8808, 41.0111] },
+    "Sister and Brother-in-Laws Home": {city: "Eagle Lake", state: "Minnesota", "coord": [-93.8813, 44.1639]},
+    "Brother and Sister-in-Laws Home": {city: "Ankeny", state: "Iowa", "coord": [-93.6001, 41.7318 ]},
+    "Grandmother's Home": {city: "Graham", state: "North Carolina", "coord": [-79.4004, 36.0680]},
+    "Dream Vacation- Europe 1": {city: "Glasglow", state: "Scotland", "coord": [-4.257140, 55.865681]},
+    "Dream Vacation- Europe 2": {city: "Dublin", state: "Ireland", "coord": [-6.260310, 53.349804]},
+    "Dream Vacation: Europe 3": {city: "Schwangau", state: "Germany", "coord": [10.732980, 47.576431]},
+    "Dream Vacation- Asia 1": {city: "Kyoto", state: "Japan", "coord": [35.0116,135.7681 ]},
+    "Dream Vacation- Asia 2": {city: "Seoul", state: "South Korea", "coord": [37.5503, 126.9971]},
+    "Dream Vacation- Asia 3": {city: "Malé", state: "Maldives", "coord": [4.1753, 73.5091]},
+    "Dream Vacation- Australia": {city: "Sydney", state: "Australia", "coord": [33.8688,151.2093]},
+    "First Internship": {city: "Arlington", state: "Washington", "coord": [-122.1251, 48.1987]},
+    "First Technician Job- Asia 2": {city: "Pinedale", state: "Wyoming", "coord": [-109.8634, 42.8679]},
+    "First Job Post-Graduation": {city: "Newton", state: "Iowa", "coord": [-93.0574, 41.7033]},
+    "First Teaching Job": {city: "Cornwall-on-Hudson", state: "New York", "coord": [-74.0157, 41.4448]},
+}   
 
 
