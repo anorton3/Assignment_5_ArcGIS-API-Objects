@@ -105,7 +105,7 @@ require(
                         
 
                           graphicsLayer.add(pointGraphic);
-                          clusterLayer.add(pointGraphic);
+                         // clusterLayer.add(pointGraphic);
 
                     }
                     
