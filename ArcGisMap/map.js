@@ -100,9 +100,12 @@ require(
                           graphicsLayer.add(pointGraphic);
                         
                           const clusterLayer = new FeatureLayer({
+                           featureReduction:{
                             type:"cluster",
+                            size: 4,
+                            color: "#c86558"}
 
-                          })
+                          });
                             map.add(clusterLayer)
                     }
                     
