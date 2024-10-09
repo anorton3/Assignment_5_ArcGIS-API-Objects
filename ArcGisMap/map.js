@@ -60,7 +60,7 @@ require(
                     view:view
                 });
                 view.ui.add(searchWidget, {
-                    position:"top-left"
+                    position:"top-right"
                 });
                 
                     
