@@ -46,10 +46,9 @@ require(
                             breakpoint: false
                         }
                     },
-                    // enable shadows to be cast from the features
                     environment: {
                         lighting: {
-                            directShadowsEnabled: false
+                            directShadowsEnabled: true
                         }
                     }
                 
@@ -84,7 +83,7 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: key + value.city + ", " + value.state + ": " 
+                                title: key + ": " + value.city + ", " + value.state  
                             }
                           });
                           graphicsLayer.add(pointGraphic);
