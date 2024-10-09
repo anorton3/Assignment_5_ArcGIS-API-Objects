@@ -27,13 +27,13 @@ require(
     
                 var view = new SceneView({
                     container: "map",
-                    viewingMode: "global",
+                    viewingMode: "local",
                     map: map,
                     camera: {
                         position: {
                             x: -105.503,
                             y: 44.270,
-                            z: 13500000,
+                            z: 500000,
                             spatialReference: {
                                 wkid: 4326
     
