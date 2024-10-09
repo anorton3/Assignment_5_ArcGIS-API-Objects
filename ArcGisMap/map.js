@@ -73,7 +73,7 @@ require(
                           
                           const markerSymbol = {
                             type: "picture-marker",  
-                            img: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                            url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
                             width: "20px",
                             height: "20px"
                             
@@ -83,22 +83,12 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: "{key} in {state}" ,
-                                fieldInfos: [
-                                    {
-                                
-                                      label: "Median Household Income",
-                                      format: {
-                                        places: 2,
-                                        digitSeparator: true
-                                      }
-                                    }]
-                            }
-                                
-                            
+                                title: key + ": " + value.city + ", " + value.state , 
+                            } 
                             
                           });
-                           graphicsLayer.add(pointGraphic);
+
+                          graphicsLayer.add(pointGraphic);
                     
                     }
                     
