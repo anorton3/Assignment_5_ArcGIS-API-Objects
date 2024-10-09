@@ -18,7 +18,7 @@ require(
                     url: "http://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"
                 });
                 var map = new Map({
-                    basemap: "hybrid",
+                    basemap: "satellite",
                     ground: {
                         layers: [layer]
                     },
