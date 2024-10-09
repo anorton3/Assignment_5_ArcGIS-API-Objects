@@ -6,10 +6,11 @@ require(
         "esri/Graphic",
         "esri/layers/GraphicsLayer",
         "esri/layers/ElevationLayer",
-        "esri/views/SceneView"
+        "esri/views/SceneView",
+        "esri/widgets/Search"
     ],
     function(
-       Map, Graphic, GraphicsLayer, ElevationLayer, SceneView
+       Map, Graphic, GraphicsLayer, ElevationLayer, SceneView, Search
     ) {
         $(document).ready(function() {
             Main = (function() {
@@ -62,17 +63,11 @@ require(
                     map.add(graphicsLayer);
                     for (const [key, value] of Object.entries(myStuff)){
                         console.log(key, value)
-                        const point = {
+                          const point = {
                             type: "point", 
                             x: value.coord[0],
                             y: value.coord[1],
                             z: 10000
-                          };
-                  
-                          const marker = {
-                            color: new Color("blue"),
-                            placement: "begin-end",
-                            style: "cross"
                           };
                           
                           const markerSymbol = {
