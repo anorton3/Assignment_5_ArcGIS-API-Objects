@@ -31,8 +31,8 @@ require(
                     map: map,
                     camera: {
                         position: {
-                            x: -105.503,
-                            y: 44.270,
+                            x: -147.3534,
+                            y: 64.7552,
                             z: 25000000,
                             spatialReference: {
                                 wkid: 4326
@@ -53,8 +53,10 @@ require(
                             directShadowsEnabled: true
                         }
                     }
-                
+
                 });
+
+                var view
 
                 const searchWidget = new Search ({
                     view:view
