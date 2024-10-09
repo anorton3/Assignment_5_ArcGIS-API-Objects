@@ -33,7 +33,7 @@ require(
                         position: {
                             x: -147.3534,
                             y: 64.7552,
-                            z: 3000000,
+                            z: 3500000,
                             spatialReference: {
                                 wkid: 4326
     
@@ -62,6 +62,10 @@ require(
                 view.ui.add(searchWidget, {
                     position:"top-right"
                 });
+
+                const shadowWidget = new ShadowCast({ view: view });
+                    view.ui.add(shadowWidget, "top-right");
+
                 
                 const initMap = function(){
 
