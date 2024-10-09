@@ -90,7 +90,7 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: value.city + ", " + value.state + "     -->"+ key,
+                                title: value.city + ", " + value.state + "     -->                     "+ key,
                                 content: "This is an important point in my life"
                             }
                             
