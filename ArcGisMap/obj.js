@@ -13,7 +13,11 @@ var myStuff = {
     "First Teaching Job": {city: "Cornwall-on-Hudson", state: "New York", "coord": [-74.0157, 41.4448]},
     "Dream Vacation- Europe 1": {city: "Glasglow", state: "Scotland", "coord": [-4.257140, 55.865681]},
     "Dream Vacation- Europe 2": {city: "Dublin", state: "Ireland", "coord": [-6.260310, 53.349804]},
-    "Dream Vacation: Europe 3": {city: "Schwangau", state: "Germany", "coord": [-10.732980, 47.576431]}
+    "Dream Vacation: Europe 3": {city: "Schwangau", state: "Germany", "coord": [10.732980, 47.576431]},
+    "Hunting Location": {city: "Deadhorse", state: "Alaska", "coord": [-148.4597, 70.2002]},
+    "Fishing Location": {city: "Valdez", state: "Alaska", "coord": [-146.3499, 61.1309]}
+
+
 }   
 
 
