@@ -1,5 +1,6 @@
 var myStuff = {
-    "Hometown": {city: "North Pole", state: "Alaska", "coord": [-147.3534, 64.7552] },
+    "Hometown": {city: "North Pole", state: "Alaska", "coord": [-147.3534, 64.7552], content: "Lived here for 14 years, best place I
+        ve ever lived"},
     "Undergraduate/Graduate School": {city: "Laramie", state: "Wyoming", "coord": [-105.502, 41.3104]},
     "Birth Place": {city: "Alamogordo", state: "New Mexico", "coord": [-105.9603, 32.8995]},
     "Favorite Vacation": {city: "Honolulu", state: "Hawaii", "coord": [-157.8581, 21.3099] },
