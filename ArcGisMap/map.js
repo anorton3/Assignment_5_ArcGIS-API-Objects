@@ -89,10 +89,11 @@ require(
                           const pointGraphic = new Graphic({
                             geometry: point,
                             symbol: markerSymbol,
-                            attributes: {
-                                title: key  ,
-                                city: value.city,
-                                state: value.state}
+                            attributes: {"Hometown":"North Pole", "Alaska"},
+                            popupTemplate: {
+                                title: "North Pole, Alaska -- Hometown",
+                                content: "Lived here for  years"
+                            }
                             
                           });
 
