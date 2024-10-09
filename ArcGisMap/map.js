@@ -33,7 +33,7 @@ require(
                         position: {
                             x: -105.503,
                             y: 44.270,
-                            z: 500000,
+                            z: 35500000,
                             spatialReference: {
                                 wkid: 4326
     
