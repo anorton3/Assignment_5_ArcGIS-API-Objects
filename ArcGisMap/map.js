@@ -70,13 +70,11 @@ require(
                           };
                   
                           const markerSymbol = {
-                            type: "simple-marker", 
-                            color: [0, 0, 255],
-                            outline: {
-                              // autocasts as new SimpleLineSymbol()
-                              color: [255, 255, 255],
-                              width: 2
-                            }
+                            type: "picture-marker",  
+                            img: "/downloaded.png",
+                            width: "40px",
+                            height: "40px"
+                            
                           };
                       
                           const pointGraphic = new Graphic({
