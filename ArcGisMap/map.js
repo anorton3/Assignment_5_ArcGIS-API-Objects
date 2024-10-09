@@ -82,8 +82,8 @@ require(
                           const markerSymbol = {
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-                            width: "20px",
-                            height: "20px"
+                            width: "50px",
+                            height: "50px"
                             
                           };
                       
