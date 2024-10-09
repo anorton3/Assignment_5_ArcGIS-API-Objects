@@ -63,21 +63,6 @@ require(
                     position:"top-right"
                 });
 
-                const zoomView = new zoomView ({
-                    view:view
-                });
-                    view.goTo({
-                        center: [-112, 38],
-                        zoom: 15,
-                        heading: 0,
-                        tilt: 0
-                    })
-                    .catch(function(err) {
-                    
-                    console.error("SceneView rejected:", err);
-                    });
-                
-
                 const initMap = function(){
 
 
