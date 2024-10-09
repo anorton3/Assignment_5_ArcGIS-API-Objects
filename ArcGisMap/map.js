@@ -56,14 +56,26 @@ require(
 
                 });
 
-                var view
-
                 const searchWidget = new Search ({
                     view:view
                 });
                 view.ui.add(searchWidget, {
                     position:"top-right"
                 });
+
+                const zoomView = new zoomView ({
+                    view:view
+                });
+                    view.goTo({
+                        center: [-112, 38],
+                        zoom: 13,
+                        heading: 30,
+                        tilt: 60
+                    })
+                    .catch(function(err) {
+                    
+                    console.error("SceneView rejected:", err);
+                    });
                 
 
                 const initMap = function(){
