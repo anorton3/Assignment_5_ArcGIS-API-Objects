@@ -69,11 +69,17 @@ require(
                             z: 10000
                           };
                   
+                          const marker = {
+                            color: new Color("blue"),
+                            placement: "begin-end",
+                            style: "cross"
+                          };
+                          
                           const markerSymbol = {
                             type: "picture-marker",  
-                            img: "/downloaded.png",
-                            width: "40px",
-                            height: "40px"
+                            img: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
+                            width: "20px",
+                            height: "20px"
                             
                           };
                       
