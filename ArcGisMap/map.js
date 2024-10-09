@@ -89,12 +89,12 @@ require(
                           const pointGraphic = new Graphic({
                             geometry: point,
                             symbol: markerSymbol,
+                            position:"top-left",
+                            size: 20,
+                            color: "#c86558",
                             popupTemplate: {
                                 title: value.city + ", " + value.state + "     -->    "+ key,
-                                content: "This is an important point in my life",
-                                size: 20,
-                                color: "#c86558",
-                                position:"top-left"
+                                content: "This is an important point in my life"
                                 
                             }
                             
