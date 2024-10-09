@@ -67,6 +67,12 @@ require(
                     view.ui.add(shadowWidget, "top-right");
 
                 
+                    const legend = new Legend({
+                        view: view,
+                        style: "card" 
+                      });
+                      view.ui.add(legend, "bottom-left");
+                      
                 const initMap = function(){
 
 
