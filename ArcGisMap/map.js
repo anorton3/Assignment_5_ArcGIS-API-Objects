@@ -90,18 +90,16 @@ require(
                             symbol: markerSymbol,
                             popupTemplate: {
                                 title: value.city + ", " + value.state + "     -->    "+ key,
-                                content: "This is an important point in my life",
-                                size: 20,
-                                color:"#c86558"
+                                content: "This is an important point in my life"
                             }
                             
                           });
 
                         
 
-                            graphicsLayer.add(pointGraphic);
+                          graphicsLayer.add(pointGraphic);
                         
-                        const clusterLayer = new FeatureLayer({
+                          const clusterLayer = new FeatureLayer({
                            featureReduction:{
                             type:"cluster",
                             size: 4,
