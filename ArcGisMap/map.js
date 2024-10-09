@@ -108,7 +108,7 @@ require(
                           graphicsLayer.add(pointGraphic);
                         
                           view.goTo({
-                            target: pointGraphic,
+                            target: markerSymbol,
                             heading: 0,
                             tilt: 20
                           });
@@ -117,6 +117,7 @@ require(
                           const clusterLayer = new FeatureLayer({
                            featureReduction:{
                             type:"cluster",
+                            target: pointGraphic,
                             size: 4,
                             color: "#c86558"}
 
