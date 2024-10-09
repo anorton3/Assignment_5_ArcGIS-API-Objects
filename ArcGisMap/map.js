@@ -29,6 +29,8 @@ require(
                     container: "map",
                     viewingMode: "global",
                     map: map,
+                    center: [-147.3534, 64.7552],
+                    zoom: 13,
                     camera: {
                         position: {
                             x: -147.3534,
@@ -99,10 +101,19 @@ require(
                             }
                             
                             
+                            
                           });
+                        
 
                           graphicsLayer.add(pointGraphic);
                         
+                          view.goTo({
+                            target: pointGraphic,
+                            heading: 0,
+                            tilt: 20
+                          });
+
+
                           const clusterLayer = new FeatureLayer({
                            featureReduction:{
                             type:"cluster",
