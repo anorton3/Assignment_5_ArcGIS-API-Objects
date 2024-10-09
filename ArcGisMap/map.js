@@ -81,7 +81,7 @@ require(
                           const markerSymbol = {
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
-                            color: "pink",
+                            color: "red",
                             width: "40px",
                             height: "40px",
                             
@@ -90,12 +90,11 @@ require(
                           const pointGraphic = new Graphic({
                             geometry: point,
                             symbol: markerSymbol,
-                            position:"top-left",
-                            size: 20,
                             color: "#c86558",
                             popupTemplate: {
                                 title: value.city + ", " + value.state + "     -->    "+ key,
-                                content: "This is an important point in my life"
+                                content: "This is an important point in my life",
+                                position:"top-left"
                                 
                             }
                             
