@@ -63,16 +63,13 @@ require(
                     position:"top-right"
                 });
 
-                const cluster = {
-                    type:cluster
-                  };
-
                 const initMap = function(){
-               
-                   
-                    // var graphicsLayer = new GraphicsLayer()
+
+
                     const graphicsLayer = new GraphicsLayer();
+                    const clusterLayer = new ClusterLayer ();
                     map.add(graphicsLayer);
+                    map.add(clusterLayer);
                     for (const [key, value] of Object.entries(myStuff)){
                         console.log(key, value)
                           const point = {
@@ -82,6 +79,10 @@ require(
                             z: 10000
                           };
                           
+                          const cluster = {
+                            type:"cluster"
+                          };
+
                           const markerSymbol = {
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
@@ -99,8 +100,11 @@ require(
                             
                           });
 
+                        
+
                           graphicsLayer.add(pointGraphic);
-                    
+                          clusterLayer.add(pointGraphic);
+
                     }
                     
                     
