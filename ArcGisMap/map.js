@@ -64,7 +64,7 @@ require(
                 });
 
                 const shadowWidget = new ShadowCast({ view: view });
-                    view.ui.add(shadowWidget, "top-right");
+                    view.ui.add(shadowWidget, "bottom-right");
 
                 
                     const legend = new Legend({
