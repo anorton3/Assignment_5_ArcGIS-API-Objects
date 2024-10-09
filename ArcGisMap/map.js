@@ -33,14 +33,14 @@ require(
                         position: {
                             x: -105.503,
                             y: 44.270,
-                            z: 40000000,
+                            z: 25000000,
                             spatialReference: {
                                 wkid: 4326
     
                             }
                         },
-                        heading: 0,
-                        tilt: 0
+                        heading: 20,
+                        tilt: 20
                     },
                     popup: {
                         dockEnabled: true,
