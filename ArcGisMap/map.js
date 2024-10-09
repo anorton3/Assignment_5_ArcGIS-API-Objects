@@ -7,10 +7,11 @@ require(
         "esri/layers/GraphicsLayer",
         "esri/layers/ElevationLayer",
         "esri/views/SceneView",
-        "esri/widgets/Search"
+        "esri/widgets/Search",
+        "esri/layers/FeatureLayer"
     ],
     function(
-       Map, Graphic, GraphicsLayer, ElevationLayer, SceneView, Search
+       Map, Graphic, GraphicsLayer, ElevationLayer, SceneView, Search, FeatureLayer
     ) {
         $(document).ready(function() {
             Main = (function() {
@@ -82,22 +83,23 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: "Important Points",
-                                content: [{
-                                  type: "fields",
-                                  fieldInfos: [{
-                                    fieldName: "Hometown",
-                                    label: "North Pole, Alaska",
-                                    format: {
-                                      digitSeparator: true
-                                    }
-                                  }, {
-                                    fieldName: "Hometown"
-                                  }]
-                                }]
-                              }
+                                title: "{NAME} in {STATE}" ,
+                                fieldInfos: [
+                                    {
+                                      fieldName: "Hometown",
+                                      visible: true,
+                                      label: "Median Household Income",
+                                      format: {
+                                        places: 2,
+                                        digitSeparator: true
+                                      }
+                                    }]
+                            }
+                                
+                            
+                            
                           });
-                          graphicsLayer.add(pointGraphic);
+                           graphicsLayer.add(pointGraphic);
                     
                     }
                     
