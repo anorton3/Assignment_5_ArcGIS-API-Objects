@@ -73,9 +73,7 @@ require(
                     fields,
                     renderer
                   };
-                
-                
-                    
+
                 const initMap = function(){
                
                    
@@ -107,6 +105,10 @@ require(
                             } 
                             
                           });
+
+                          const cluster = {
+                            type:cluster
+                          };
 
                           graphicsLayer.add(pointGraphic);
                     
