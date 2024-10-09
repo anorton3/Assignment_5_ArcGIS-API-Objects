@@ -83,10 +83,10 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: "{NAME} in {STATE}" ,
+                                title: "{Hometown} in {Alaska}" ,
                                 fieldInfos: [
                                     {
-                                      fieldName: "Hometown",
+                                      fieldName: "North Pole",
                                       visible: true,
                                       label: "Median Household Income",
                                       format: {
