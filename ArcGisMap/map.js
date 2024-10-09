@@ -68,9 +68,9 @@ require(
                 });
                     view.goTo({
                         center: [-112, 38],
-                        zoom: 13,
-                        heading: 30,
-                        tilt: 60
+                        zoom: 15,
+                        heading: 0,
+                        tilt: 0
                     })
                     .catch(function(err) {
                     
