@@ -63,17 +63,6 @@ require(
                     position:"top-right"
                 });
 
-                const { renderer, fields } = await pieChartRendererCreator.createRendererForClustering({
-                    layer,
-                    shape: "donut"
-                  });
-                  
-                  layer.featureReduction = {
-                    type: "cluster",
-                    fields,
-                    renderer
-                  };
-
                 const initMap = function(){
                
                    
