@@ -101,7 +101,7 @@ require(
 
                             graphicsLayer.add(pointGraphic);
                         
-                        const clusterLayer = new clusterLayer({
+                        const clusterLayer = new FeatureLayer({
                            featureReduction:{
                             type:"cluster",
                             size: 4,
