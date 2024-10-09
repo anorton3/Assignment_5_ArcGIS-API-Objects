@@ -90,7 +90,9 @@ require(
                             symbol: markerSymbol,
                             popupTemplate: {
                                 title: value.city + ", " + value.state + "     -->    "+ key,
-                                content: "This is an important point in my life"
+                                content: "This is an important point in my life",
+                                size: 20,
+                                color:"#c86558"
                             }
                             
                           });
