@@ -82,7 +82,8 @@ require(
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
                             width: "40px",
-                            height: "40px"
+                            height: "40px",
+                            outline: "green"
                             
                           };
                       
