@@ -45,6 +45,7 @@ require(
                         tilt: 0
                     },
                     popup: {
+                        alignment:"bottom-center"  ,                              
                         dockEnabled: true,
                         dockOptions: {
                             breakpoint: false
