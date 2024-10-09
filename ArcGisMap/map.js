@@ -92,7 +92,7 @@ require(
                             symbol: markerSymbol,
                             popupTemplate: {
                                 title: key + ": " + value.city + ", " + value.state,
-                                content: "This is an important point in my life",
+                                content: "This is an important point in my life"
                             }
                             
                           });
