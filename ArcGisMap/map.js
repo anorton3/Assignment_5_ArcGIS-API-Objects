@@ -62,6 +62,16 @@ require(
                 view.ui.add(searchWidget, {
                     position:"top-right"
                 });
+                const view = new SceneView({
+                    map: map,
+                    container: "viewDiv"
+                  });
+                  
+                view.environment.lighting = {
+                    type: "sun",
+                    date: new Date("October, 2024 12:00:00 UTC")
+                  };
+
                 
                     
                 const initMap = function(){
