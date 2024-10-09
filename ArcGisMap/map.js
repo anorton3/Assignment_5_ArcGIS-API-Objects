@@ -54,12 +54,6 @@ require(
                     }
                 
                 })
-
-                var view = new SceneView({
-                    center:[-112, 38],
-                    zoom:12,
-                    heading:30
-                })
                     
                 const initMap = function(){
                
