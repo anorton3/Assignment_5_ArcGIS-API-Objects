@@ -33,7 +33,7 @@ require(
                         position: {
                             x: -105.503,
                             y: 44.270,
-                            z: 35500000,
+                            z: 500000,
                             spatialReference: {
                                 wkid: 4326
     
@@ -52,17 +52,16 @@ require(
                         lighting: {
                             directShadowsEnabled: true
                         }
-                    },
-
-                    const searchWidget = new Search ({
-                        view:view
-                    });
-                    view.ui.add(searchWidget, {
-                        position: "top-right",
-                        index:
-                    })
+                    }
                 
-                })
+                });
+
+                const searchWidget = new Search ({
+                    view:view
+                });
+                view.ui.add(searchWidget, {
+                    position:"top-left"
+                });
                 
                     
                 const initMap = function(){
