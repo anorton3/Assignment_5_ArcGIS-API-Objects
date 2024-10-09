@@ -82,8 +82,20 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: key + ": " + value.city + ", " + value.state  
-                            }
+                                title: "Important Points",
+                                content: [{
+                                  type: "fields",
+                                  fieldInfos: [{
+                                    fieldName: "Hometown",
+                                    label: "North Pole, Alaska",
+                                    format: {
+                                      digitSeparator: true
+                                    }
+                                  }, {
+                                    fieldName: "Hometown"
+                                  }]
+                                }]
+                              }
                           });
                           graphicsLayer.add(pointGraphic);
                     
