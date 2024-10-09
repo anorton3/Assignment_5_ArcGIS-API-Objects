@@ -98,8 +98,12 @@ require(
                         
 
                           graphicsLayer.add(pointGraphic);
-                         
+                        
+                          const clusterLayer = new FeatureLayer({
+                            type:"cluster",
 
+                          })
+                            map.add(clusterLayer)
                     }
                     
                     
