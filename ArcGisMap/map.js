@@ -103,9 +103,8 @@ require(
                                 content: "This is an important point in my life",
                                 size: 20,
                                 color: "#c86558",
-                                dockOptions:{
-                                    position:"top-left"
-                                }
+                                position:"top-left"
+                                
                             }
                             
                             
