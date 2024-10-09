@@ -62,7 +62,7 @@ require(
                 view.ui.add(searchWidget, {
                     position:"top-right"
                 });
-
+                
                 const initMap = function(){
 
 
