@@ -62,14 +62,15 @@ require(
                 view.ui.add(searchWidget, {
                     position:"top-right"
                 });
+                
 
                 const initMap = function(){
 
 
                     const graphicsLayer = new GraphicsLayer();
-                    const clusterLayer = new ClusterLayer ();
+                    //const clusterLayer = new ClusterLayer ();
                     map.add(graphicsLayer);
-                    map.add(clusterLayer);
+                    //map.add(clusterLayer);
                     for (const [key, value] of Object.entries(myStuff)){
                         console.log(key, value)
                           const point = {
@@ -79,9 +80,9 @@ require(
                             z: 10000
                           };
                           
-                          const cluster = {
-                            type:"cluster"
-                          };
+                          //const cluster = {
+                          //  type:"cluster"
+                         // };
 
                           const markerSymbol = {
                             type: "picture-marker",  
@@ -94,9 +95,10 @@ require(
                           const pointGraphic = new Graphic({
                             geometry: point,
                             symbol: markerSymbol,
-                            popupTemplate: {
-                                title: key + ": " + value.city + ", " + value.state , 
-                            } 
+                            attributes: {
+                                title: key  ,
+                                city: value.city,
+                                state: value.state}
                             
                           });
 
