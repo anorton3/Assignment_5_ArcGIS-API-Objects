@@ -85,8 +85,8 @@ require(
                             type: "picture-marker",  
                             url: "https://static.arcgis.com/images/Symbols/Shapes/BlackStarLargeB.png",
                             color: "red",
-                            width: "25px",
-                            height: "25px",
+                            width: "33px",
+                            height: "33px",
                             
                           };
                       
@@ -107,23 +107,24 @@ require(
                         
 
                           graphicsLayer.add(pointGraphic);
-                        
-                          view.goTo({
-                            target: markerSymbol,
-                            heading: 0,
-                            tilt: 20
-                          });
 
 
                           const clusterLayer = new FeatureLayer({
                            featureReduction:{
                             type:"cluster",
                             target: pointGraphic,
+                            clusterRadius: "50px",
                             size: 4,
                             color: "#c86558"}
 
                           });
                             map.add(clusterLayer)
+
+                            view.goTo({
+                                target: markerSymbol,
+                                heading: 0,
+                                tilt: 20
+                              });
                     }
                     
                     
