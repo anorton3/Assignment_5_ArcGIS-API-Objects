@@ -82,7 +82,8 @@ require(
                             geometry: point,
                             symbol: markerSymbol,
                             popupTemplate: {
-                                title: key + ": " + value.city + ", " + value.state
+                                title: key + value.city + ", " + value.state + ": " ,
+                                content: key + content,
                             }
                           });
                           graphicsLayer.add(pointGraphic);
