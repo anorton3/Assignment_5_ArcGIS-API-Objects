@@ -13,11 +13,11 @@ var myStuff = {
     "First Teaching Job": {city: "Cornwall-on-Hudson", state: "New York", "coord": [-74.0157, 41.4448]},
     "Dream Vacation- Europe 1": {city: "Glasglow", state: "Scotland", "coord": [-4.257140, 55.865681]},
     "Dream Vacation- Europe 2": {city: "Dublin", state: "Ireland", "coord": [-6.260310, 53.349804]},
-    "Dream Vacation: Europe 3": {city: "Schwangau", state: "Germany", "coord": [10.732980, 47.576431]},
-    "Dream Vacation- Asia 1": {city: "Kyoto", state: "Japan", "coord": [35.0116,135.7681 ]},
-    "Dream Vacation- Asia 2": {city: "Seoul", state: "South Korea", "coord": [37.5503, 126.9971]},
-    "Dream Vacation- Asia 3": {city: "Malé", state: "Maldives", "coord": [4.1753, 73.5091]},
-    "Dream Vacation- Australia": {city: "Sydney", state: "Australia", "coord": [33.8688,151.2093]},
+    "Dream Vacation: Europe 3": {city: "Schwangau", state: "Germany", "coord": [-10.732980, 47.576431]},
+    "Dream Vacation- Asia 1": {city: "Kyoto", state: "Japan", "coord": [-35.0116,135.7681 ]},
+    "Dream Vacation- Asia 2": {city: "Seoul", state: "South Korea", "coord": [-37.5503, 126.9971]},
+    "Dream Vacation- Asia 3": {city: "Malé", state: "Maldives", "coord": [-4.1753, 73.5091]},
+    "Dream Vacation- Australia": {city: "Sydney", state: "Australia", "coord": [-33.8688,151.2093]},
 }   
 
 
